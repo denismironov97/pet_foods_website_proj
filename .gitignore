@@ -1,3 +1,9 @@
+#Custom Files ignore list
+temp
+
+
+
+#NodeJS general ignore
 # Logs
 logs
 *.log
