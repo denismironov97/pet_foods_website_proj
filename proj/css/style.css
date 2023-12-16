@@ -1,0 +1,89 @@
+/* Header */
+.header-menu {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 3%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 4.8rem;
+  height: 9.6rem;
+  width: 85%;
+  border-radius: 9px;
+
+  z-index: 999;
+
+  /* background-color: #fdc7a2; */
+  background-color: #fb923c;
+}
+
+.logo {
+  height: 6.2rem;
+  border-radius: 50%;
+}
+/* ----------------------------------------------------------------------- */
+
+/* Navigation */
+.nav-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  list-style: none;
+}
+
+.nav-menu-list a:link,
+.nav-menu-list a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  /* Creating btn-like elem from anchor tag elem */
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  background-color: #4682b4;
+  /* border: 1px solid #4682b4; */
+}
+
+.nav-menu-list a:hover,
+.nav-menu-list a:active {
+  color: #333;
+  background-color: #fdd5b9;
+}
+/* ----------------------------------------------------------------------- */
+
+/* Hero Section/Landing Page */
+.section-hero {
+  background-color: #feeadc;
+  padding: 4.8rem 0;
+}
+
+.container-grid-hero {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8rem;
+  justify-items: center;
+}
+
+.container-grid-hero img {
+  width: 472px;
+  height: 707px;
+}
+
+.container-grid-hero div:first-child {
+  justify-self: end;
+}
+
+.container-grid-hero div:last-child {
+  justify-self: start;
+}
+/* ----------------------------------------------------------------------- */

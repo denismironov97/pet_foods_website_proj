@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* Percentage of the users's browsers font-size setting */
+  /* 10 / 16px  = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+}
+
+main {
+  margin-top: 12.8rem;
+}
+
+/* Container Components */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 6.4rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--center--vertically {
+  align-items: center;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Headings */
+.heading-prim,
+.heading-sec,
+.heading-tert {
+  color: #333;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+
+  margin-bottom: 3.2rem;
+  line-height: 1.2;
+}
+
+.heading-prim {
+  font-size: 5.2rem;
+  line-height: 1.05;
+}
+
+.heading-sec {
+  font-size: 4.4rem;
+}
+
+.heading-tert {
+  font-size: 3rem;
+}
