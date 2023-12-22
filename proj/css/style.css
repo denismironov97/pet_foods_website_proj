@@ -17,7 +17,9 @@
   z-index: 999;
 
   /* background-color: #fdc7a2; */
-  background-color: #fb923c;
+  background-color: #fb923cb3;
+
+  backdrop-filter: blur(15px);
 }
 
 .logo {
